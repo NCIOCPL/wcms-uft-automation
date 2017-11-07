@@ -1,0 +1,7 @@
+Update Href_Cgov_Runtime_DT_CTSv_4_2
+Set LinkHref = Replace(LinkHref, 'www-dt-qa.cancer.gov', 'www-red-dev.cancer.gov')
+Where LinkHref like '%www-dt-qa.cancer.gov%'
+
+Update Href_Cgov_Runtime_DT_CTSv_4_2
+Set ImgSrc = Replace(ImgSrc, 'www-dt-qa.cancer.gov', 'www-red-dev.cancer.gov')
+Where ImgSrc like '%www-dt-qa.cancer.gov%'
