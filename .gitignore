@@ -1,0 +1,18 @@
+/Automation/Results
+  
+# This doesn't scale, but we can't safely block 'Res*' for the entire tree.
+# Script outputs need to be moved to a location external to the code tree.
+  
+# Risk Assessment Tools
+/Automation/External Actions/RiskAssessmentTools/BCRAT_ExitONError/Res*
+/Automation/External Actions/RiskAssessmentTools/BCRAT1/Res*
+/Automation/External Actions/RiskAssessmentTools/CCRAT_ExitOnError/Res*
+/Automation/External Actions/RiskAssessmentTools/CCRAT1/Res*
+/Automation/External Actions/RiskAssessmentTools/MRAT_ExitOnError/Res*
+/Automation/External Actions/RiskAssessmentTools/MRAT1/Res*
+ 
+# WCMS generally
+/Automation/WCMS/CGOV_ApplicationModules/Res*
+/Automation/WCMS/PercussionDriver/Res*
+/Automation/WCMS/URL_Clealup_Script/Res*
+/Screen-Scrape/WCMS_Screenscrape_SQLServer/Res*
