@@ -50,12 +50,12 @@
 	ArrURLs = Array("Search", "GeneticsDirectory", "DrugDictionary", "DictionaryOfCancerTerms", "diccionario", "ClinicalTrials")
 	strTmp = SetSiteURL (strEnv)
 	
-	 strURL = strTmp & "/about-cancer/treatment/clinical-trials/search"	'# Basic Clinical Trials Search #
-	 FuncBasicClinicalTrialsSearch strURL
-	
-	
-	strURL = strTmp & "/about-cancer/treatment/clinical-trials/advanced-search"	'# Advanced Clinical Trials Search #
-	FuncClinicalTrialsSearch strURL
+'	 strURL = strTmp & "/about-cancer/treatment/clinical-trials/search"	'# Basic Clinical Trials Search #
+'	 FuncBasicClinicalTrialsSearch strURL
+'	
+'	
+'	strURL = strTmp & "/about-cancer/treatment/clinical-trials/advanced-search"	'# Advanced Clinical Trials Search #
+'	FuncClinicalTrialsSearch strURL
 	
 	strURL = strTmp & "/research/nci-role/cancer-centers/find"	'# Cancer Center Maps #
 	FuncCancerCenterMaps strURL

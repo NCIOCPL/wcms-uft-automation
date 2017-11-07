@@ -175,8 +175,8 @@ DataPath = ParentPath & "Datasheets_ScreenScrape\" & strURLFile
 	RowCount=Datatable.GetSheet("TestCase").GetRowCount
   	set conn=Createobject("ADODB.Connection")
   	
-	"Enter your connection string here"
-	
+	'"Enter your connection string here"
+	SITConnectionStr = "***REMOVED***"
 	conn.open SITConnectionStr ' connecting to db	
 '	RunFromRow = Cint(Datatable.Value("RunFromRow","TestCase") 	)
 With Browser("micclass:=browser")

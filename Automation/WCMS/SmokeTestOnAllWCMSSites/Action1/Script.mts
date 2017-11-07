@@ -165,14 +165,14 @@ For idx =startIdx To EndIdx 'Ubound(ArrSites)
 					msgbox "Check for the presence of blog posts with thumbnail images on press release page"
 					
 					'#######################Checking the Exit Disclaimer ##############
-					Browser("micclass:=Browser","index:=0").Navigate strURL & "/research/areas/genomics"
+					Browser("micclass:=Browser","index:=0").Navigate strURL & "/research/areas/causes"
 					WaitForBrowserSync
 				     With Browser("micclass:=Browser","index:=0").Page("micclass:=page","index:=0")
-	    				boolExists=.Link("html tag:=A","text:=Exit Disclaimer").Exist
+	    				boolExists=.Link("html tag:=A","text:=Exit Disclaimer","innertext:=Exit Disclaimer","index:=0").Exist
 							If boolExists=False Then
 							Msgbox "Exit Disclaimer does not exist on CancerGov"
    					    	Else
-   						 	.Link("html tag:=A","text:=Exit Disclaimer").Click
+   						 	.Link("html tag:=A","text:=Exit Disclaimer","innertext:=Exit Disclaimer","index:=0").Click
   					    	End If
 						boolTemp=.webElement("html tag:=SPAN","innertext:=Website Linking Policy").Exist
    						 	If boolTemp=False Then
