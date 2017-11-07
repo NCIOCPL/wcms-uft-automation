@@ -1,0 +1,7 @@
+﻿<Properties>
+  <WatchEntry0 value="i" />
+  <WatchEntry1 value="instr(strLinkHref, &quot;www.youtube.com&quot;)" />
+  <WatchEntry2 value="strLinkName" />
+  <WatchEntry3 value="strLinkHref" />
+  <WatchEntry4 value="NumOfLinks" />
+</Properties>
