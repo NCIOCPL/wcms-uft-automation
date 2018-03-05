@@ -22,6 +22,9 @@ Action1 [MRAT_ExitOnError]=Action1\Script.mts
 Action1 [BCRAT1]=Action1\Script.mts
 Action1 [CCRAT1]=Action1\Script.mts
 Action1 [MRAT1]=Action1\Script.mts
+Action1 [BCRAT1] [2]=Action1\Script.mts
+Action1 [CCRAT1] [2]=Action1\Script.mts
+Action1 [MRAT1] [2]=Action1\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile

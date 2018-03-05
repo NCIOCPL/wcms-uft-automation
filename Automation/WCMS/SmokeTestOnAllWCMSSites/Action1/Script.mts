@@ -189,20 +189,29 @@ For idx =startIdx To EndIdx 'Ubound(ArrSites)
 					If Instr(ArrSites(idx), "preview") = 0 Then
 						'RunAction "Action1 [BCRAT]", oneIteration, strURL
 						
-                         RunAction "Action1 [BCRAT1]", oneIteration,strURL
+                         'RunAction "Action1 [BCRAT1]", oneIteration,strURL
+                         
+                         
+                         RunAction "Action1 [BCRAT1] [2]", oneIteration
 						 
 						'RunAction "Action1 [BCRAT_ExitONError]", oneIteration, strURL
 						 
 
 						'RunAction "Action1 [CCRAT]", oneIteration, strURL
 						
-						 RunAction "Action1 [CCRAT1]", oneIteration, strURL
+						 'RunAction "Action1 [CCRAT1]", oneIteration, strURL
+						 
+						 
+                          RunAction "Action1 [CCRAT1] [2]", oneIteration
 						
                         ' RunAction "Action1 [CCRAT_ExitOnError]", oneIteration, strURL
 						
 						'RunAction "Action1 [MRAT]", oneIteration, strURL
 						
-						 RunAction "Action1 [MRAT1]", oneIteration,strURL
+						 'RunAction "Action1 [MRAT1]", oneIteration,strURL
+						 
+						 
+                          RunAction "Action1 [MRAT1] [2]", oneIteration
 						
 						 'RunAction "Action1 [MRAT_ExitOnError]", oneIteration, strURL
 						

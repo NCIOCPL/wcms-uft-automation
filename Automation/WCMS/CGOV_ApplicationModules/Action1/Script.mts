@@ -39,7 +39,7 @@
 	End If
 	
 	
-	Environment.Value("ResultsPath") = "L:\OCPL\ODDC\CPSB\QAStuff\Veena\Automation\Results\WCMS\ApModules"
+	Environment.Value("ResultsPath") = "L:\OCPL\ODDC\CPSB\QAStuff\New_QAScripts\Automation\Results\WCMS\ApModules"
 	                                   
 	Environment.Value("TestcaseFile") = "WCMS_AppModuleReport"
 	Environment.Value("strTestName") = "WCMS AppModule Test"
